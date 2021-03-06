@@ -8,16 +8,15 @@
 
 ## 一.利用Build Configuration来配置多环境
 
-![](https://github.com/zhuxiaod/MarkDownImages/blob/master/imgs/image-20210306170726597.png)
-
-​	根据常见的开发场景，开发，测试和线上三个场景。分别创建对应的Configurations:Debug、Internal和AppStore。集中Internal是Duplicate "Debug" 生成的。这里设置三种场景主要是设置编译、打包的条件。
+![](../MDImages/image-20210306170726597.png)
+    根据常见的开发场景，开发，测试和线上三个场景。分别创建对应的Configurations:Debug、Internal和AppStore。集中Internal是Duplicate "Debug" 生成的。这里设置三种场景主要是设置编译、打包的条件。
 ​    ![](https://github.com/zhuxiaod/MarkDownImages/blob/master/imgs/image-20210306171125300.png")
 ​    
-​	创建新的Scheme
+​   创建新的Scheme
 
 ![](https://github.com/zhuxiaod/MultiEnvironmentLearning/blob/main/MDImages/image-20210306171244799.png")
 
-​	笔者在这里为了区分不同的scheme,加上了一个后缀，方便在使用的时候能够做到一个区分。
+​   笔者在这里为了区分不同的scheme,加上了一个后缀，方便在使用的时候能够做到一个区分。
 ​    ![](https://github.com/zhuxiaod/MultiEnvironmentLearning/blob/main/MDImages/image-20210306171428769.png")
 
 
