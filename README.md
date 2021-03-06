@@ -14,10 +14,10 @@
 ​    
 ​   创建新的Scheme
 
-![](https://github.com/zhuxiaod/MultiEnvironmentLearning/blob/main/MDImages/image-20210306171244799.png")
+![](../MDImages/image-20210306171244799.png")
 
 ​   笔者在这里为了区分不同的scheme,加上了一个后缀，方便在使用的时候能够做到一个区分。
-​    ![](https://github.com/zhuxiaod/MultiEnvironmentLearning/blob/main/MDImages/image-20210306171428769.png")
+​    ![](../MDImages/image-20210306171428769.png")
 
 
 
@@ -46,7 +46,7 @@
 ## 二、使用xcconfig设置项目配置
 
 ​	第一部分，已经区分出了三个开发环境，那么我们如何去设置不同的项目配置呢？
-​    ​    ![](https://github.com/zhuxiaod/MultiEnvironmentLearning/blob/main/MDImages/image-20210306172040293.png")
+​    ​    ![](../MDImages/image-20210306172040293.png")
 
 ​	
 
@@ -59,11 +59,11 @@
 ​	其实到这里已经满足了我们进行不同配置的需求，但是因为这种方式是对于项目的。当我们项目有多个的时候，使用这种方式来配置项目其实是很麻烦的。且容易出错。因为不知道什么时候我们就会错误的去做一个选择，且后面可能忘记配置了什么。
 
 ​	这个时候就需要使用xcconfig来配置了。
-​    ​    ​    ![](https://github.com/zhuxiaod/MultiEnvironmentLearning/blob/main/MDImages/image-20210306172931545.png")
+​    ​    ​    ![](../MDImages/image-20210306172931545.png")
 
 
 在项目中添加xcconfig文件，上图是我管理的方式。
-​    ​    ​    ![](https://github.com/zhuxiaod/MultiEnvironmentLearning/blob/main/MDImages/image-20210306173020623.png")
+​    ​    ​    ![](../MDImages/image-20210306173020623.png")
 
 ​	
 
@@ -80,8 +80,8 @@
 
 
 如果使用Pods来管理的话，设置上会对应Pods的配置。针对使用Pods的朋友，在添加scheme后，需要重新pod install，这样pod会创建新的配置。
-​    ​    ​    ![](https://github.com/zhuxiaod/MultiEnvironmentLearning/blob/main/MDImages/image-20210306173239251.png")
-​    ​    ​    ![](https://github.com/zhuxiaod/MultiEnvironmentLearning/blob/main/MDImages/image-20210306173415812.png")
+​    ​    ​    ![](../MDImages/image-20210306173239251.png")
+​    ​    ​    ![](../MDImages/image-20210306173415812.png")
 
 
 
@@ -97,13 +97,13 @@
 
 
 ​	将我们的配置文件，与对应的Configuration绑定。
-​    ​    ​    ​    ![](https://github.com/zhuxiaod/MultiEnvironmentLearning/blob/main/MDImages/image-20210306173458488.png")
+​    ​    ​    ​    ![](../MDImages/image-20210306173458488.png")
 
 ​	这个时候运行会报错。提示重新 pod install。
-​    ​    ​    ​    ​    ![](https://github.com/zhuxiaod/MultiEnvironmentLearning/blob/main/MDImages/image-20210306173547202.png")
+​    ​    ​    ​    ​    ![](../MDImages/image-20210306173547202.png")
 
 ​	重新pod install后会有警告。是提示Pods的配置没有被引用。
-​    ​    ​    ​    ​    ​    ![](https://github.com/zhuxiaod/MultiEnvironmentLearning/blob/main/MDImages/image-20210306174242208.png")
+​    ​    ​    ​    ​    ​    ![](../MDImages/image-20210306174242208.png")
 
 
 ​	
@@ -118,7 +118,7 @@
 
 ​	`#include "Pods/Target Support Files/Pods-MultiEnvironmentLearning/Pods-MultiEnvironmentLearning.debug.xcconfig"`
 
-    ![](https://github.com/zhuxiaod/MultiEnvironmentLearning/blob/main/MDImages/image-20210306174424831.png)
+![](../MDImages/image-20210306174424831.png)
 
 
 ​	再次pod install 会发现警告没有了。
@@ -126,25 +126,25 @@
 ​	再次Run，运行正常。
 
 ​	下面来测试一下效果，为了测试在xcconfig中配置参数是否有效。
-​    ![](https://github.com/zhuxiaod/MultiEnvironmentLearning/blob/main/MDImages/image-20210306175233016.png)
-​    ![](https://github.com/zhuxiaod/MultiEnvironmentLearning/blob/main/MDImages/image-20210306175304810.png)
-​    ![](https://github.com/zhuxiaod/MultiEnvironmentLearning/blob/main/MDImages/image-20210306175333211.png)
+​    ![](../MDImages/image-20210306175233016.png)
+​    ![](../MDImages/image-20210306175304810.png)
+​    ![](../MDImages/image-20210306175333211.png)
 
 ​	成功！
-​    ![](https://github.com/zhuxiaod/MultiEnvironmentLearning/blob/main/MDImages/image-20210306175715007.png)
-​    ![](https://github.com/zhuxiaod/MultiEnvironmentLearning/blob/main/MDImages/image-20210306175728604.png)
+​    ![](../MDImages/image-20210306175715007.png)
+​    ![](../MDImages/image-20210306175728604.png)
 
 ​	切换scheme，App名字被修改，证明配置成功。
 
 ​	这样我们就能给测试包的时候，不在被问是什么环境了！
 
 ## 三、根据多环境运行代码
-​    ![](https://github.com/zhuxiaod/MultiEnvironmentLearning/blob/main/MDImages/image-20210306180043556.png)
+​    ![](../MDImages/image-20210306180043556.png)
 
 ​	相信说到Preprocessor Macros 大家一定不会陌生。
 
 ​	多环境中，可以根据设置的宏来改变代码流程。
-​    ​    ![](https://github.com/zhuxiaod/MultiEnvironmentLearning/blob/main/MDImages/image-20210306180525596.png)
+​    ​    ![](../MDImages/image-20210306180525596.png)
 ​	
 
 
@@ -156,12 +156,12 @@
 
 
 同样我们使用xcconfig来设置。 通过复制Preprocessor Macros 粘贴到xcconfig。可以拿到Key值，这样我们就能使用文本控制项目的配置了。
-​    ![](https://github.com/zhuxiaod/MultiEnvironmentLearning/blob/main/MDImages/image-20210306180747691.png)
+​    ![](../MDImages/image-20210306180747691.png)
 
 ​	xcconfig配置完成后，运行项目会发现Preprocessor Macros 的值也发生了改变，再次证明我们使用xcconfig是会影响项目配置的。
-​    ​    ![](https://github.com/zhuxiaod/MultiEnvironmentLearning/blob/main/MDImages/image-20210306181156892.png)
+​    ​    ![](../MDImages/image-20210306181156892.png)
 
-​    ![](https://github.com/zhuxiaod/MultiEnvironmentLearning/blob/main/MDImages/image-20210306181135918.png)
+​    ![](../MDImages/image-20210306181135918.png)
 
 ​	这样就满足了我相同的逻辑在多环境，不同的实现。
 
