@@ -32,11 +32,7 @@
 
 ​	第一部分，已经区分出了三个开发环境，那么我们如何去设置不同的项目配置呢？
 
-​	<img src="https://github.com/zhuxiaod/MarkDownImages/blob/master/img/image-20210306172040293.png" alt="image-20210306172040293"  width= "70%" align='left'/>  
-
-
-
-​	
+​	![](https://github.com/zhuxiaod/MarkDownImages/blob/master/img/image-20210306172040293.png)
 
 ​	以Build Active Architecture Only 为例，因为我们设置了不同的Configuration，我们在这里也让我们在不同的环境有多种不同的选择。
 
@@ -44,55 +40,35 @@
 
 ​	这个时候就需要使用xcconfig来配置了。
 
-<img src="https://github.com/zhuxiaod/MarkDownImages/blob/master/img/image-20210306172931545.png" alt="image-20210306172931545"  width= "30%" align='left'/>  
-
-
+![](https://github.com/zhuxiaod/MarkDownImages/blob/master/img/image-20210306172931545.png)
 
 ​	在项目中添加xcconfig文件，上图是我管理的方式。
 
-​		<img src="https://github.com/zhuxiaod/MarkDownImages/blob/master/img/image-20210306173020623.png" alt="image-20210306173020623"  width= "50%" align='left'/>  
-
-
-
-​	
-
-
-
-
-
-
+​		![](https://github.com/zhuxiaod/MarkDownImages/blob/master/img/image-20210306173020623.png)
 
 ​	如果使用Pods来管理的话，设置上会对应Pods的配置。针对使用Pods的朋友，在添加scheme后，需要重新pod install，这样pod会创建新的配置。
 
-<img src="https://github.com/zhuxiaod/MarkDownImages/blob/master/img/image-20210306173239251.png" alt="image-20210306173239251"  width= "50%" align='left' />  
+![](https://github.com/zhuxiaod/MarkDownImages/blob/master/img/image-20210306173239251.png)
 
 
 
-​	<img src="https://github.com/zhuxiaod/MarkDownImages/blob/master/img/image-20210306173415812.png" alt="image-20210306173415812"  width= "50%" align='left' />  
-
-
-
-
-
-
-
-
+​	![](https://github.com/zhuxiaod/MarkDownImages/blob/master/img/image-20210306173415812.png)
 
 ​	将我们的配置文件，与对应的Configuration绑定。
 
-<img src="https://github.com/zhuxiaod/MarkDownImages/blob/master/img/image-20210306173458488.png" alt="image-20210306173458488"  width= "90%" align='left' />  
+![](https://github.com/zhuxiaod/MarkDownImages/blob/master/img/image-20210306173458488.png) 
 
 
 
 ​	这个时候运行会报错。提示重新 pod install。
 
-<img src="https://github.com/zhuxiaod/MarkDownImages/blob/master/img/image-20210306173547202.png" alt="image-20210306173547202"  width= "90%" align='left' />  
+![](https://github.com/zhuxiaod/MarkDownImages/blob/master/img/image-20210306173547202.png)
 
 
 
 ​	重新pod install后会有警告。是提示Pods的配置没有被引用。
 
-​	<img src="https://github.com/zhuxiaod/MarkDownImages/blob/master/img/image-20210306174242208.png" alt="image-20210306174242208"  width= "80%" align='left' />  
+​	![](https://github.com/zhuxiaod/MarkDownImages/blob/master/img/image-20210306174242208.png)
 
 
 
@@ -108,7 +84,7 @@
 
 ​	`#include "Pods/Target Support Files/Pods-MultiEnvironmentLearning/Pods-MultiEnvironmentLearning.debug.xcconfig"`
 
-<img src="https://github.com/zhuxiaod/MarkDownImages/blob/master/img/image-20210306174424831.png" alt="image-20210306174424831"  width= "90%" align='left' />  
+![](https://github.com/zhuxiaod/MarkDownImages/blob/master/img/image-20210306174424831.png)
 
 
 
@@ -118,25 +94,25 @@
 
 ​	下面来测试一下效果，为了测试在xcconfig中配置参数是否有效。
 
-​	<img src="https://github.com/zhuxiaod/MarkDownImages/blob/master/img/image-20210306175233016.png" alt="image-20210306175233016"  width= "90%" align='left' />  
+​	![](https://github.com/zhuxiaod/MarkDownImages/blob/master/img/image-20210306175233016.png)
 
 
 
-<img src="https://github.com/zhuxiaod/MarkDownImages/blob/master/img/image-20210306175304810.png" alt="image-20210306175304810"  width= "90%" align='left' />  
+![](https://github.com/zhuxiaod/MarkDownImages/blob/master/img/image-20210306175304810.png)
 
 
 
-<img src="https://github.com/zhuxiaod/MarkDownImages/blob/master/img/image-20210306175333211.png" alt="image-20210306175333211"  width= "10%" align='left' />  
+![](https://github.com/zhuxiaod/MarkDownImages/blob/master/img/image-20210306175333211.png)
 
 
 
 ​	成功！
 
-​	<img src="https://github.com/zhuxiaod/MarkDownImages/blob/master/img/image-20210306175715007.png" alt="image-20210306175715007"  width= "90%" align='left'/>  
+​	![](https://github.com/zhuxiaod/MarkDownImages/blob/master/img/image-20210306175715007.png)
 
 
 
-<img src="https://github.com/zhuxiaod/MarkDownImages/blob/master/img/image-20210306175728604.png" alt="image-20210306175728604"  width= "10%" align='left' />  
+![](https://github.com/zhuxiaod/MarkDownImages/blob/master/img/image-20210306175728604.png）
 
 
 
@@ -146,7 +122,7 @@
 
 ## 三、根据多环境运行代码
 
-​	<img src="https://github.com/zhuxiaod/MarkDownImages/blob/master/img/image-20210306180043556.png" alt="image-20210306180043556" style="zoom:50%;" />  
+​	![](https://github.com/zhuxiaod/MarkDownImages/blob/master/img/image-20210306180043556.png)
 
 
 
@@ -154,7 +130,7 @@
 
 ​	多环境中，可以根据设置的宏来改变代码流程。
 
-​		<img src="https://github.com/zhuxiaod/MarkDownImages/blob/master/img/image-20210306180525596.png" alt="image-20210306180525596"  width= "90%" align='left'/> 
+​		![](https://github.com/zhuxiaod/MarkDownImages/blob/master/img/image-20210306180525596.png)
 
  
 
@@ -166,17 +142,17 @@
 
 同样我们使用xcconfig来设置。 通过复制Preprocessor Macros 粘贴到xcconfig。可以拿到Key值，这样我们就能使用文本控制项目的配置了。
 
-<img src="https://github.com/zhuxiaod/MarkDownImages/blob/master/img/image-20210306180747691.png" alt="image-20210306180747691"  width= "50%" align='left' />  
+![](https://github.com/zhuxiaod/MarkDownImages/blob/master/img/image-20210306180747691.png)
 
 
 
 ​	xcconfig配置完成后，运行项目会发现Preprocessor Macros 的值也发生了改变，再次证明我们使用xcconfig是会影响项目配置的。
 
-<img src="https://github.com/zhuxiaod/MarkDownImages/blob/master/img/image-20210306181156892.png" alt="image-20210306181156892"  width= "90%" align='left' />  
+![](https://github.com/zhuxiaod/MarkDownImages/blob/master/img/image-20210306181156892.png)
 
 
 
-<img src="https://github.com/zhuxiaod/MarkDownImages/blob/master/img/image-20210306181135918.png" alt="image-20210306181135918"  width= "90%" align='left' />  
+![](https://github.com/zhuxiaod/MarkDownImages/blob/master/img/image-20210306181135918.png)
 
 
 
