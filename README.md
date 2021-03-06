@@ -10,23 +10,13 @@
 
 ![](https://github.com/zhuxiaod/MarkDownImages/blob/master/img/image-20210306170726597.png)
 
-
-
-<img src="https://github.com/zhuxiaod/MarkDownImages/blob/master/img/image-20210306170726597.png" alt="image-20210306170726597" width= "50%" align='left' />  
-
-
-
 ​	根据常见的开发场景，开发，测试和线上三个场景。分别创建对应的Configurations:Debug、Internal和AppStore。集中Internal是Duplicate "Debug" 生成的。这里设置三种场景主要是设置编译、打包的条件。
 
-
-
-​	<img src="https://github.com/zhuxiaod/MarkDownImages/blob/master/img/image-20210306171125300.png" alt="image-20210306171125300" style="zoom:50%;" />	  
+​	![](https://github.com/zhuxiaod/MarkDownImages/blob/master/img/image-20210306171125300.png)
 
 ​	创建新的Scheme
 
-<img src="https://github.com/zhuxiaod/MarkDownImages/blob/master/img/image-20210306171244799.png" alt="image-20210306171244799"  width= "50%" align='left'/>  
-
-
+![](https://github.com/zhuxiaod/MarkDownImages/blob/master/img/image-20210306171244799.png)  
 
 ​	笔者在这里为了区分不同的scheme,加上了一个后缀，方便在使用的时候能够做到一个区分。
 
