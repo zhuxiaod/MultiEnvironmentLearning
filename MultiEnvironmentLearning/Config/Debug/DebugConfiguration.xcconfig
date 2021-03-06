@@ -1,0 +1,17 @@
+//
+//  DebugConfiguration.xcconfig
+//  MultiEnvironmentLearning
+//
+//  Created by MissSunRise on 2021/3/6.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+#include "Pods/Target Support Files/Pods-MultiEnvironmentLearning/Pods-MultiEnvironmentLearning.debug.xcconfig"
+
+PRODUCT_NAME = 多环境
+
+PRODUCT_BUNDLE_NAME = $(PRODUCT_NAME) Debug
+
+GCC_PREPROCESSOR_DEFINITIONS = DEBUG=1

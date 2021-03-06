@@ -1,0 +1,809 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A671D319699AA83FE50551AF /* libPods-MultiEnvironmentLearning.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 98430CE1EB815966FF0C9692 /* libPods-MultiEnvironmentLearning.a */; };
+		D48FB6B025F37DA400E176D5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D48FB6AF25F37DA400E176D5 /* AppDelegate.m */; };
+		D48FB6B325F37DA400E176D5 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D48FB6B225F37DA400E176D5 /* SceneDelegate.m */; };
+		D48FB6B625F37DA400E176D5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D48FB6B525F37DA400E176D5 /* ViewController.m */; };
+		D48FB6B925F37DA400E176D5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D48FB6B725F37DA400E176D5 /* Main.storyboard */; };
+		D48FB6BB25F37DA700E176D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D48FB6BA25F37DA700E176D5 /* Assets.xcassets */; };
+		D48FB6BE25F37DA700E176D5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D48FB6BC25F37DA700E176D5 /* LaunchScreen.storyboard */; };
+		D48FB6C125F37DA700E176D5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D48FB6C025F37DA700E176D5 /* main.m */; };
+		D48FB6CB25F37DA700E176D5 /* MultiEnvironmentLearningTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D48FB6CA25F37DA700E176D5 /* MultiEnvironmentLearningTests.m */; };
+		D48FB6D625F37DA700E176D5 /* MultiEnvironmentLearningUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D48FB6D525F37DA700E176D5 /* MultiEnvironmentLearningUITests.m */; };
+		D48FB6FD25F382D900E176D5 /* InternalConfiguration.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = D48FB6FC25F382D900E176D5 /* InternalConfiguration.xcconfig */; };
+		D48FB70225F382EB00E176D5 /* AppStoreConfiguration.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = D48FB70125F382EB00E176D5 /* AppStoreConfiguration.xcconfig */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D48FB6C725F37DA700E176D5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D48FB6A325F37DA400E176D5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D48FB6AA25F37DA400E176D5;
+			remoteInfo = MultiEnvironmentLearning;
+		};
+		D48FB6D225F37DA700E176D5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D48FB6A325F37DA400E176D5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D48FB6AA25F37DA400E176D5;
+			remoteInfo = MultiEnvironmentLearning;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		98430CE1EB815966FF0C9692 /* libPods-MultiEnvironmentLearning.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MultiEnvironmentLearning.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A555051667B2B77FB4503824 /* Pods-MultiEnvironmentLearning.internal.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MultiEnvironmentLearning.internal.xcconfig"; path = "Target Support Files/Pods-MultiEnvironmentLearning/Pods-MultiEnvironmentLearning.internal.xcconfig"; sourceTree = "<group>"; };
+		CE9F40B402B26703CFF09912 /* Pods-MultiEnvironmentLearning.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MultiEnvironmentLearning.debug.xcconfig"; path = "Target Support Files/Pods-MultiEnvironmentLearning/Pods-MultiEnvironmentLearning.debug.xcconfig"; sourceTree = "<group>"; };
+		D48FB6AB25F37DA400E176D5 /* 多环境.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "多环境.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D48FB6AE25F37DA400E176D5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D48FB6AF25F37DA400E176D5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D48FB6B125F37DA400E176D5 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		D48FB6B225F37DA400E176D5 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		D48FB6B425F37DA400E176D5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D48FB6B525F37DA400E176D5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D48FB6B825F37DA400E176D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D48FB6BA25F37DA700E176D5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D48FB6BD25F37DA700E176D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D48FB6BF25F37DA700E176D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D48FB6C025F37DA700E176D5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D48FB6C625F37DA700E176D5 /* MultiEnvironmentLearningTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MultiEnvironmentLearningTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D48FB6CA25F37DA700E176D5 /* MultiEnvironmentLearningTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MultiEnvironmentLearningTests.m; sourceTree = "<group>"; };
+		D48FB6CC25F37DA700E176D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D48FB6D125F37DA700E176D5 /* MultiEnvironmentLearningUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MultiEnvironmentLearningUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D48FB6D525F37DA700E176D5 /* MultiEnvironmentLearningUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MultiEnvironmentLearningUITests.m; sourceTree = "<group>"; };
+		D48FB6D725F37DA700E176D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D48FB6F525F382BD00E176D5 /* DebugConfiguration.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = DebugConfiguration.xcconfig; sourceTree = "<group>"; };
+		D48FB6FC25F382D900E176D5 /* InternalConfiguration.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = InternalConfiguration.xcconfig; sourceTree = "<group>"; };
+		D48FB70125F382EB00E176D5 /* AppStoreConfiguration.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = AppStoreConfiguration.xcconfig; sourceTree = "<group>"; };
+		D6FC96AA98AA47ADB36B2900 /* Pods-MultiEnvironmentLearning.appstore.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MultiEnvironmentLearning.appstore.xcconfig"; path = "Target Support Files/Pods-MultiEnvironmentLearning/Pods-MultiEnvironmentLearning.appstore.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D48FB6A825F37DA400E176D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A671D319699AA83FE50551AF /* libPods-MultiEnvironmentLearning.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D48FB6C325F37DA700E176D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D48FB6CE25F37DA700E176D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3E8F002240FDB9C71A46C2F8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				98430CE1EB815966FF0C9692 /* libPods-MultiEnvironmentLearning.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7B610E676BF9F8896F1581A4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CE9F40B402B26703CFF09912 /* Pods-MultiEnvironmentLearning.debug.xcconfig */,
+				A555051667B2B77FB4503824 /* Pods-MultiEnvironmentLearning.internal.xcconfig */,
+				D6FC96AA98AA47ADB36B2900 /* Pods-MultiEnvironmentLearning.appstore.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D48FB6A225F37DA400E176D5 = {
+			isa = PBXGroup;
+			children = (
+				D48FB6AD25F37DA400E176D5 /* MultiEnvironmentLearning */,
+				D48FB6C925F37DA700E176D5 /* MultiEnvironmentLearningTests */,
+				D48FB6D425F37DA700E176D5 /* MultiEnvironmentLearningUITests */,
+				D48FB6AC25F37DA400E176D5 /* Products */,
+				7B610E676BF9F8896F1581A4 /* Pods */,
+				3E8F002240FDB9C71A46C2F8 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D48FB6AC25F37DA400E176D5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D48FB6AB25F37DA400E176D5 /* 多环境.app */,
+				D48FB6C625F37DA700E176D5 /* MultiEnvironmentLearningTests.xctest */,
+				D48FB6D125F37DA700E176D5 /* MultiEnvironmentLearningUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D48FB6AD25F37DA400E176D5 /* MultiEnvironmentLearning */ = {
+			isa = PBXGroup;
+			children = (
+				D48FB6F125F3826900E176D5 /* Config */,
+				D48FB6AE25F37DA400E176D5 /* AppDelegate.h */,
+				D48FB6AF25F37DA400E176D5 /* AppDelegate.m */,
+				D48FB6B125F37DA400E176D5 /* SceneDelegate.h */,
+				D48FB6B225F37DA400E176D5 /* SceneDelegate.m */,
+				D48FB6B425F37DA400E176D5 /* ViewController.h */,
+				D48FB6B525F37DA400E176D5 /* ViewController.m */,
+				D48FB6B725F37DA400E176D5 /* Main.storyboard */,
+				D48FB6BA25F37DA700E176D5 /* Assets.xcassets */,
+				D48FB6BC25F37DA700E176D5 /* LaunchScreen.storyboard */,
+				D48FB6BF25F37DA700E176D5 /* Info.plist */,
+				D48FB6C025F37DA700E176D5 /* main.m */,
+			);
+			path = MultiEnvironmentLearning;
+			sourceTree = "<group>";
+		};
+		D48FB6C925F37DA700E176D5 /* MultiEnvironmentLearningTests */ = {
+			isa = PBXGroup;
+			children = (
+				D48FB6CA25F37DA700E176D5 /* MultiEnvironmentLearningTests.m */,
+				D48FB6CC25F37DA700E176D5 /* Info.plist */,
+			);
+			path = MultiEnvironmentLearningTests;
+			sourceTree = "<group>";
+		};
+		D48FB6D425F37DA700E176D5 /* MultiEnvironmentLearningUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D48FB6D525F37DA700E176D5 /* MultiEnvironmentLearningUITests.m */,
+				D48FB6D725F37DA700E176D5 /* Info.plist */,
+			);
+			path = MultiEnvironmentLearningUITests;
+			sourceTree = "<group>";
+		};
+		D48FB6F125F3826900E176D5 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				D48FB6F425F3827800E176D5 /* Debug */,
+				D48FB6F325F3827600E176D5 /* Internal */,
+				D48FB6F225F3827400E176D5 /* AppStore */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		D48FB6F225F3827400E176D5 /* AppStore */ = {
+			isa = PBXGroup;
+			children = (
+				D48FB70125F382EB00E176D5 /* AppStoreConfiguration.xcconfig */,
+			);
+			path = AppStore;
+			sourceTree = "<group>";
+		};
+		D48FB6F325F3827600E176D5 /* Internal */ = {
+			isa = PBXGroup;
+			children = (
+				D48FB6FC25F382D900E176D5 /* InternalConfiguration.xcconfig */,
+			);
+			path = Internal;
+			sourceTree = "<group>";
+		};
+		D48FB6F425F3827800E176D5 /* Debug */ = {
+			isa = PBXGroup;
+			children = (
+				D48FB6F525F382BD00E176D5 /* DebugConfiguration.xcconfig */,
+			);
+			path = Debug;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D48FB6AA25F37DA400E176D5 /* MultiEnvironmentLearning */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D48FB6DA25F37DA700E176D5 /* Build configuration list for PBXNativeTarget "MultiEnvironmentLearning" */;
+			buildPhases = (
+				F11A9A54D69E221C94D187F2 /* [CP] Check Pods Manifest.lock */,
+				D48FB6A725F37DA400E176D5 /* Sources */,
+				D48FB6A825F37DA400E176D5 /* Frameworks */,
+				D48FB6A925F37DA400E176D5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MultiEnvironmentLearning;
+			productName = MultiEnvironmentLearning;
+			productReference = D48FB6AB25F37DA400E176D5 /* 多环境.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D48FB6C525F37DA700E176D5 /* MultiEnvironmentLearningTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D48FB6DD25F37DA700E176D5 /* Build configuration list for PBXNativeTarget "MultiEnvironmentLearningTests" */;
+			buildPhases = (
+				D48FB6C225F37DA700E176D5 /* Sources */,
+				D48FB6C325F37DA700E176D5 /* Frameworks */,
+				D48FB6C425F37DA700E176D5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D48FB6C825F37DA700E176D5 /* PBXTargetDependency */,
+			);
+			name = MultiEnvironmentLearningTests;
+			productName = MultiEnvironmentLearningTests;
+			productReference = D48FB6C625F37DA700E176D5 /* MultiEnvironmentLearningTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D48FB6D025F37DA700E176D5 /* MultiEnvironmentLearningUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D48FB6E025F37DA700E176D5 /* Build configuration list for PBXNativeTarget "MultiEnvironmentLearningUITests" */;
+			buildPhases = (
+				D48FB6CD25F37DA700E176D5 /* Sources */,
+				D48FB6CE25F37DA700E176D5 /* Frameworks */,
+				D48FB6CF25F37DA700E176D5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D48FB6D325F37DA700E176D5 /* PBXTargetDependency */,
+			);
+			name = MultiEnvironmentLearningUITests;
+			productName = MultiEnvironmentLearningUITests;
+			productReference = D48FB6D125F37DA700E176D5 /* MultiEnvironmentLearningUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D48FB6A325F37DA400E176D5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					D48FB6AA25F37DA400E176D5 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					D48FB6C525F37DA700E176D5 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = D48FB6AA25F37DA400E176D5;
+					};
+					D48FB6D025F37DA700E176D5 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = D48FB6AA25F37DA400E176D5;
+					};
+				};
+			};
+			buildConfigurationList = D48FB6A625F37DA400E176D5 /* Build configuration list for PBXProject "MultiEnvironmentLearning" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D48FB6A225F37DA400E176D5;
+			productRefGroup = D48FB6AC25F37DA400E176D5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D48FB6AA25F37DA400E176D5 /* MultiEnvironmentLearning */,
+				D48FB6C525F37DA700E176D5 /* MultiEnvironmentLearningTests */,
+				D48FB6D025F37DA700E176D5 /* MultiEnvironmentLearningUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D48FB6A925F37DA400E176D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D48FB6BE25F37DA700E176D5 /* LaunchScreen.storyboard in Resources */,
+				D48FB70225F382EB00E176D5 /* AppStoreConfiguration.xcconfig in Resources */,
+				D48FB6BB25F37DA700E176D5 /* Assets.xcassets in Resources */,
+				D48FB6FD25F382D900E176D5 /* InternalConfiguration.xcconfig in Resources */,
+				D48FB6B925F37DA400E176D5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D48FB6C425F37DA700E176D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D48FB6CF25F37DA700E176D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		F11A9A54D69E221C94D187F2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MultiEnvironmentLearning-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D48FB6A725F37DA400E176D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D48FB6B625F37DA400E176D5 /* ViewController.m in Sources */,
+				D48FB6B025F37DA400E176D5 /* AppDelegate.m in Sources */,
+				D48FB6C125F37DA700E176D5 /* main.m in Sources */,
+				D48FB6B325F37DA400E176D5 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D48FB6C225F37DA700E176D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D48FB6CB25F37DA700E176D5 /* MultiEnvironmentLearningTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D48FB6CD25F37DA700E176D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D48FB6D625F37DA700E176D5 /* MultiEnvironmentLearningUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D48FB6C825F37DA700E176D5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D48FB6AA25F37DA400E176D5 /* MultiEnvironmentLearning */;
+			targetProxy = D48FB6C725F37DA700E176D5 /* PBXContainerItemProxy */;
+		};
+		D48FB6D325F37DA700E176D5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D48FB6AA25F37DA400E176D5 /* MultiEnvironmentLearning */;
+			targetProxy = D48FB6D225F37DA700E176D5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D48FB6B725F37DA400E176D5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D48FB6B825F37DA400E176D5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D48FB6BC25F37DA700E176D5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D48FB6BD25F37DA700E176D5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D48FB6D825F37DA700E176D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D48FB6D925F37DA700E176D5 /* AppStore */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = AppStore;
+		};
+		D48FB6DB25F37DA700E176D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D48FB6F525F382BD00E176D5 /* DebugConfiguration.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PN47LTQ645;
+				INFOPLIST_FILE = MultiEnvironmentLearning/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-.MultiEnvironmentLearning";
+				PRODUCT_NAME = "$(PRODUCT_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D48FB6DC25F37DA700E176D5 /* AppStore */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D48FB70125F382EB00E176D5 /* AppStoreConfiguration.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PN47LTQ645;
+				INFOPLIST_FILE = MultiEnvironmentLearning/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-.MultiEnvironmentLearning";
+				PRODUCT_NAME = "$(PRODUCT_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = AppStore;
+		};
+		D48FB6DE25F37DA700E176D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PN47LTQ645;
+				INFOPLIST_FILE = MultiEnvironmentLearningTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-.MultiEnvironmentLearningTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MultiEnvironmentLearning.app/MultiEnvironmentLearning";
+			};
+			name = Debug;
+		};
+		D48FB6DF25F37DA700E176D5 /* AppStore */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PN47LTQ645;
+				INFOPLIST_FILE = MultiEnvironmentLearningTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-.MultiEnvironmentLearningTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MultiEnvironmentLearning.app/MultiEnvironmentLearning";
+			};
+			name = AppStore;
+		};
+		D48FB6E125F37DA700E176D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PN47LTQ645;
+				INFOPLIST_FILE = MultiEnvironmentLearningUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-.MultiEnvironmentLearningUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MultiEnvironmentLearning;
+			};
+			name = Debug;
+		};
+		D48FB6E225F37DA700E176D5 /* AppStore */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PN47LTQ645;
+				INFOPLIST_FILE = MultiEnvironmentLearningUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-.MultiEnvironmentLearningUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MultiEnvironmentLearning;
+			};
+			name = AppStore;
+		};
+		D48FB6E625F37DAF00E176D5 /* Internal */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Internal;
+		};
+		D48FB6E725F37DAF00E176D5 /* Internal */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D48FB6FC25F382D900E176D5 /* InternalConfiguration.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PN47LTQ645;
+				INFOPLIST_FILE = MultiEnvironmentLearning/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-.MultiEnvironmentLearning";
+				PRODUCT_NAME = "$(PRODUCT_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Internal;
+		};
+		D48FB6E825F37DAF00E176D5 /* Internal */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PN47LTQ645;
+				INFOPLIST_FILE = MultiEnvironmentLearningTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-.MultiEnvironmentLearningTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MultiEnvironmentLearning.app/MultiEnvironmentLearning";
+			};
+			name = Internal;
+		};
+		D48FB6E925F37DAF00E176D5 /* Internal */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PN47LTQ645;
+				INFOPLIST_FILE = MultiEnvironmentLearningUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-.MultiEnvironmentLearningUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MultiEnvironmentLearning;
+			};
+			name = Internal;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D48FB6A625F37DA400E176D5 /* Build configuration list for PBXProject "MultiEnvironmentLearning" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D48FB6D825F37DA700E176D5 /* Debug */,
+				D48FB6E625F37DAF00E176D5 /* Internal */,
+				D48FB6D925F37DA700E176D5 /* AppStore */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = AppStore;
+		};
+		D48FB6DA25F37DA700E176D5 /* Build configuration list for PBXNativeTarget "MultiEnvironmentLearning" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D48FB6DB25F37DA700E176D5 /* Debug */,
+				D48FB6E725F37DAF00E176D5 /* Internal */,
+				D48FB6DC25F37DA700E176D5 /* AppStore */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = AppStore;
+		};
+		D48FB6DD25F37DA700E176D5 /* Build configuration list for PBXNativeTarget "MultiEnvironmentLearningTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D48FB6DE25F37DA700E176D5 /* Debug */,
+				D48FB6E825F37DAF00E176D5 /* Internal */,
+				D48FB6DF25F37DA700E176D5 /* AppStore */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = AppStore;
+		};
+		D48FB6E025F37DA700E176D5 /* Build configuration list for PBXNativeTarget "MultiEnvironmentLearningUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D48FB6E125F37DA700E176D5 /* Debug */,
+				D48FB6E925F37DAF00E176D5 /* Internal */,
+				D48FB6E225F37DA700E176D5 /* AppStore */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = AppStore;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D48FB6A325F37DA400E176D5 /* Project object */;
+}
