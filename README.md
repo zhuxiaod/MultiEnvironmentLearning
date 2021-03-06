@@ -166,7 +166,7 @@
 
 ​	参考：
 
-​	[手把手教你给一个iOS app配置多个环境变](https://www.jianshu.com/p/83b6e781eb51)
+​	[手把手教你给一个iOS app配置多个环境变量](https://www.jianshu.com/p/83b6e781eb51)
 
 
 
