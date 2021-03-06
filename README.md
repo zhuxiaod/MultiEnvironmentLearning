@@ -8,15 +8,13 @@
 
 ## 一.利用Build Configuration来配置多环境
 
-```
-<div align="center">
-```
+![](https://github.com/zhuxiaod/MarkDownImages/blob/master/img/image-20210306170726597.png" alt="image-20210306170726597)
+
+
 
 <img src="https://github.com/zhuxiaod/MarkDownImages/blob/master/img/image-20210306170726597.png" alt="image-20210306170726597" width= "50%" align='left' />  
 
-```
-</div>
-```
+
 
 ​	根据常见的开发场景，开发，测试和线上三个场景。分别创建对应的Configurations:Debug、Internal和AppStore。集中Internal是Duplicate "Debug" 生成的。这里设置三种场景主要是设置编译、打包的条件。
 
