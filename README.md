@@ -20,17 +20,7 @@
 
 ​	笔者在这里为了区分不同的scheme,加上了一个后缀，方便在使用的时候能够做到一个区分。
 
-​	<img src="https://github.com/zhuxiaod/MarkDownImages/blob/master/img/image-20210306171428769.png" alt="image-20210306171428769"  width= "60%" align='left' />  
-
-
-
-
-
-
-
-
-
-
+​	![](https://github.com/zhuxiaod/MarkDownImages/blob/master/img/image-20210306171428769.png)  
 
 ​	只有将scheme对应不同的Configuration,我们的设置才知道我们对应的环境是什么。
 
