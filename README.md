@@ -8,7 +8,7 @@
 
 ## 一.利用Build Configuration来配置多环境
 
-![](https://github.com/zhuxiaod/MarkDownImages/blob/master/img/image-20210306170726597.png" alt="image-20210306170726597)
+![](https://github.com/zhuxiaod/MarkDownImages/blob/master/img/image-20210306170726597.png)
 
 
 
