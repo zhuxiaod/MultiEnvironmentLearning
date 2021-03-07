@@ -6,7 +6,7 @@
 
 ​	需求：由于开发中不需要对不同的系统库，三方库使用多环境管理。使用最多的就是不同环境的常量，代码，项目配置涉及到多环境。根据三个需求设置多环境。
 
-## 一.利用Build Configuration来配置多环境
+## 一、利用Build Configuration来配置多环境
 
 ![](https://github.com/zhuxiaod/MarkDownImages/blob/master/img/image-20210306170726597.png)
 
